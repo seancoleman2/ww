@@ -27,7 +27,7 @@ export default function Registry() {
               </div>
               
               <div className="bg-white p-8 rounded-lg shadow-lg border border-gold/20 text-center">
-                <h2 className="text-3xl font-crimson text-dark mb-4">Bloomingdale's</h2>
+                <h2 className="text-3xl font-crimson text-dark mb-4">Bloomingdale&apos;s</h2>
                 <a 
                   href="https://www.bloomingdales.com/registry" 
                   target="_blank" 
