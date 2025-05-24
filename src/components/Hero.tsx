@@ -1,0 +1,11 @@
+export default function Hero() {
+  return (
+    <section className="relative flex-1 flex items-center justify-center bg-white py-16">
+      <div className="relative z-20 text-center text-gold px-4 w-full">
+        <h1 className="text-5xl md:text-8xl font-exmouth mb-4">Nicolette & Sean</h1>
+        <p className="text-xl md:text-4xl mb-3 font-exmouth">New York, New York</p>
+        <p className="text-lg md:text-2xl mb-2 font-exmouth">January 17, 2026</p>
+      </div>
+    </section>
+  );
+}
