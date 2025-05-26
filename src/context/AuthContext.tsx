@@ -13,7 +13,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   const authenticate = (password: string) => {
-    if (password === 'metclub2026!') {
+    if (password === 'metclub2026') {
       setIsAuthenticated(true);
       return true;
     }
