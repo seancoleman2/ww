@@ -9,9 +9,9 @@ export default function Home() {
       <PasswordProtection />
       <div className="min-h-screen flex flex-col">
         <Header />
-        <div className="flex-1 flex items-center justify-center">
+        <main className="flex-1 flex items-center justify-center overflow-hidden">
           <Hero />
-        </div>
+        </main>
         <CountdownTimer />
       </div>
     </>
