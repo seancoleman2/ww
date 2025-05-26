@@ -6,9 +6,9 @@ export default function Accommodations() {
   return (
     <>
       <Header />
-      <div className="pt-20 min-h-screen bg-pearl">
+      <div className="min-h-screen bg-pearl">
         <div className="container mx-auto px-4 py-12">
-          <h1 className="text-4xl md:text-5xl font-exmouth text-gold text-center mb-12">
+          <h1 className="text-4xl md:text-5xl font-exmouth text-gold text-center mb-8">
             Accommodations
           </h1>
           
@@ -38,7 +38,7 @@ export default function Accommodations() {
                         <p className="text-gray-600 text-sm">1335 Avenue of the Americas, New York, NY 10019</p>
                       </div>
                       <a 
-                        href="https://www.hilton.com/en/hotels/nychihh-new-york-hilton-midtown/" 
+                        href="https://www.hilton.com/en/hotels/nycnhhh-new-york-hilton-midtown/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="bg-gold text-white px-4 py-1 rounded text-sm hover:bg-gold/90 transition-colors ml-4 inline-block"
@@ -72,7 +72,7 @@ export default function Accommodations() {
                         <p className="text-gray-600 text-sm">2 E 61st St, New York, NY 10065</p>
                       </div>
                       <a 
-                        href="https://www.tajhotels.com/en/hotels/taj-the-pierre-new-york/" 
+                        href="https://www.thepierreny.com/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="bg-gold text-white px-4 py-1 rounded text-sm hover:bg-gold/90 transition-colors ml-4 inline-block"
@@ -113,13 +113,13 @@ export default function Accommodations() {
                   <div>
                     <h3 className="text-base font-crimson font-semibold text-gray-800 mb-2">Taxi & Rideshare</h3>
                     <p className="text-gray-700 text-sm">
-                      Transportation to the ceremony and reception will not be provided. We recommend traveling by Taxis, Uber, and Lyft, as they are readily available throughout Manhattan. The ride from the Church of St. Ignatius Loyola to the Metropolitan Club takes approximately 10-15 minutes.
+                      Transportation to the ceremony and reception will not be provided. We recommend traveling by Taxi, Uber, or Lyft, as they are readily available throughout Manhattan. The ride from the Church of St. Ignatius Loyola to the Metropolitan Club takes approximately 10-15 minutes.
                     </p>
                   </div>
                   <div>
                     <h3 className="text-base font-crimson font-semibold text-gray-800 mb-2">Subway</h3>
                     <p className="text-gray-700 text-sm">
-                      If you would rather subway from the ceremony to the reception, take the 4, 5, or 6 train from 86th Street (near the church) to 59th Street. The stop is a short walk to The Metropolitan Club.
+                      If you would rather subway from the ceremony to the reception, take the 4, 5, or 6 train from 86th Street (near the church) to 59th Street. The stop is a short walk to the Metropolitan Club.
                     </p>
                   </div>
                 </div>

@@ -14,20 +14,20 @@ export default function Header() {
   ];
 
   return (
-    <header className="fixed w-full bg-pearl/80 backdrop-blur-sm z-50 border-b border-gold/20">
-      <nav className="container mx-auto px-4 py-4">
-        <div className="flex justify-between items-center">
-          <Link href="/" className="text-2xl font-exmouth text-gold font-semibold">
-            N & S
+    <header className="bg-pearl/80 backdrop-blur-sm z-50 border-b border-gold/20 flex-shrink-0">
+      <nav className="px-4 py-3 sm:py-4">
+        <div className="flex justify-between items-center max-w-7xl mx-auto">
+          <Link href="/" className="text-xl sm:text-2xl font-exmouth text-gold font-semibold flex-shrink-0">
+            N&S
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex space-x-4 lg:space-x-8">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-gold/80 hover:text-gold transition-colors font-crimson text-1xl"
+                className="text-gold/80 hover:text-gold transition-colors font-crimson text-sm lg:text-base whitespace-nowrap"
               >
                 {link.label}
               </Link>
@@ -36,7 +36,7 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-gold"
+            className="md:hidden text-gold flex-shrink-0"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -60,13 +60,13 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4">
-            <div className="flex flex-col space-y-4">
+          <div className="md:hidden mt-4 border-t border-gold/20 pt-4">
+            <div className="flex flex-col space-y-3 max-w-7xl mx-auto">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-gold/80 hover:text-gold transition-colors"
+                  className="text-gold/80 hover:text-gold transition-colors font-crimson"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.label}
@@ -78,4 +78,4 @@ export default function Header() {
       </nav>
     </header>
   );
-} 
+}

@@ -6,9 +6,9 @@ export default function Registry() {
     <>
       <PasswordProtection />
       <Header />
-      <div className="pt-20 min-h-screen bg-pearl">
+      <div className="min-h-screen bg-pearl">
         <div className="container mx-auto px-4 py-12">
-          <h1 className="text-4xl md:text-5xl font-exmouth text-gold text-center mb-12">
+          <h1 className="text-4xl md:text-5xl font-exmouth text-gold text-center mb-8">
             Registry
           </h1>
           

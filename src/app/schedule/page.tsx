@@ -4,9 +4,9 @@ export default function Schedule() {
   return (
     <>
       <Header />
-      <div className="pt-20 min-h-screen bg-pearl">
+      <div className="min-h-screen bg-pearl">
         <div className="container mx-auto px-4 py-12">
-          <h1 className="text-4xl md:text-5xl font-exmouth text-gold text-center mb-12">
+          <h1 className="text-4xl md:text-5xl font-exmouth text-gold text-center mb-8">
             Schedule
           </h1>
           <div className="max-w-3xl mx-auto text-center text-dark mb-12">
@@ -49,7 +49,7 @@ export default function Schedule() {
                 </div>
                 <div className="px-6 pb-6 text-center">
                   <div className="text-base font-crimson font-semibold text-gray-800 mb-3">5:00 PM - 10:30 PM</div>
-                  <p className="text-gray-700 font-medium text-base mb-4">The Metropolitan Club</p>
+                  <p className="text-gray-700 font-medium text-base mb-4">Metropolitan Club</p>
                   <div className="text-sm text-gray-500 space-y-1">
                     <p>1 E 60th St</p>
                     <p>New York, NY 10022</p>
@@ -61,7 +61,7 @@ export default function Schedule() {
               <div className="bg-white rounded-lg shadow-lg border border-gold/20 overflow-hidden hover:shadow-xl transition-shadow">
                 <div className="bg-gradient-to-b from-gray-50 to-white text-center py-6 px-6">
                   <div className="mb-3">
-                    <span className="text-3xl">🌙</span>
+                    <span className="text-3xl">✨</span>
                   </div>
                   <h3 className="text-3xl font-exmouth text-gold">Late Night</h3>
                 </div>

@@ -44,8 +44,8 @@ export default function CountdownTimer() {
   }, []);
 
   return (
-    <div className="text-center py-8 mt-aut border-t border-gold/20o">
-      <h2 className="text-2xl font-exmouth text-gold mb-6">Counting Down to Our Special Day</h2>
+    <div className="text-center py-8 border-t border-gold/20">
+      <h2 className="text-3xl font-exmouth text-gold mb-6">Counting Down to Our Special Day</h2>
       <div className="flex justify-center space-x-4 md:space-x-8">
         <div className="flex flex-col items-center">
           <div className="bg-white p-4 rounded-lg shadow-md border border-gold/20 w-20 md:w-24">

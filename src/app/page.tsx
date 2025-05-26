@@ -5,11 +5,15 @@ import CountdownTimer from '@/components/CountdownTimer';
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <>
       <PasswordProtection />
-      <Header />
-      <Hero />
-      <CountdownTimer />
-    </div>
+      <div className="min-h-screen flex flex-col">
+        <Header />
+        <div className="flex-1 flex items-center justify-center">
+          <Hero />
+        </div>
+        <CountdownTimer />
+      </div>
+    </>
   );
 }
