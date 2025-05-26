@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <PasswordProtection />
-      <div className="min-h-screen flex flex-col">
+      <div className="h-[100dvh] flex flex-col">
         <Header />
         <main className="flex-1 flex items-center justify-center overflow-hidden">
           <Hero />
