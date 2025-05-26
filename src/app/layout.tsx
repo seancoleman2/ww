@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Crimson_Text } from "next/font/google";
+import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import { AuthProvider } from "@/context/AuthContext";
@@ -9,6 +10,12 @@ const crimson = Crimson_Text({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
   variable: "--font-crimson"
+});
+
+const playfair = Playfair_Display({ 
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+  variable: "--font-playfair"
 });
 
 export const metadata: Metadata = {

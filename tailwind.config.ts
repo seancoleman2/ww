@@ -18,7 +18,8 @@ const config: Config = {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
         exmouth: ['Exmouth', 'serif'],
-        crimson: ['Crimson Text', 'serif'],
+        playfair: ['var(--font-playfair)', 'serif'],
+        crimson: ['var(--font-crimson)', 'serif'],
       },
       colors: {
         pearl: {
