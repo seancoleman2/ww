@@ -34,7 +34,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
             localStorage.removeItem('wedding-auth-time');
           }
         }
-      } catch (error) {
+      } catch {
         // Handle localStorage not being available (private browsing, etc.)
         console.log('localStorage not available');
       }
@@ -50,7 +50,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       try {
         localStorage.setItem('wedding-auth', 'true');
         localStorage.setItem('wedding-auth-time', Date.now().toString());
-      } catch (error) {
+      } catch {
         console.log('Could not save to localStorage');
       }
       return true;
