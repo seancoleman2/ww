@@ -6,7 +6,7 @@ export default function Accommodations() {
   return (
     <>
       <Header />
-      <div className="min-h-screen bg-pearl">
+      <div className="pt-16 min-h-screen bg-pearl">
         <div className="container mx-auto px-4 py-12">
           <h1 className="text-4xl md:text-5xl font-exmouth text-gold text-center mb-8">
             Accommodations

@@ -14,7 +14,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="bg-pearl/80 backdrop-blur-sm z-50 border-b border-gold/20 flex-shrink-0">
+    <header className="fixed top-0 left-0 right-0 bg-pearl/80 backdrop-blur-sm z-50 border-b border-gold/20">
       <nav className="px-4 py-3 sm:py-4">
         <div className="flex justify-between items-center max-w-7xl mx-auto">
           <Link href="/" className="text-xl sm:text-2xl font-exmouth text-gold font-semibold flex-shrink-0">
