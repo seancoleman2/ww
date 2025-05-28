@@ -41,9 +41,7 @@ export default function RootLayout({
       <body className={`${crimson.variable} font-crimson`}>
         <AuthProvider>
           <PasswordProtection />
-          <main className="min-h-screen bg-pearl">
             {children}
-          </main>
         </AuthProvider>
         <Footer />
       </body>
