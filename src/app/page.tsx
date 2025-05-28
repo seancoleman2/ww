@@ -6,12 +6,10 @@ export default function Home() {
   return (
     <>
       <PasswordProtection />
-      <div className="h-[100dvh] flex flex-col">
-        <Header />
-        <main className="flex-1 flex items-center justify-center overflow-hidden">
-          <Hero />
-        </main>
-      </div>
+      <Header />
+      <main className="flex-1 flex items-center justify-center h-[calc(100dvh-80px)]">
+        <Hero />
+      </main>
     </>
   );
 }
