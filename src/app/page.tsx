@@ -12,7 +12,6 @@ export default function Home() {
         <main className="flex-1 flex items-center justify-center overflow-hidden">
           <Hero />
         </main>
-        <CountdownTimer />
       </div>
     </>
   );
