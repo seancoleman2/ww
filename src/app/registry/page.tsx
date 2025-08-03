@@ -14,7 +14,7 @@ export default function Registry() {
           
           <div className="max-w-3xl mx-auto text-center text-dark mb-12">
             <p className="mb-4">
-              We are so grateful to have you join us at our wedding, and your presence is more than enough. However, for friends and family who are inclined to give a gift, please see our registries linked below.
+              We are so grateful to have you join us at our wedding, and your presence is more than enough. However, for friends and family who are inclined to give a gift, please see our registry linked below.
             </p>
           </div>
           
