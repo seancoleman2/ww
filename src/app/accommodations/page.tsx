@@ -113,13 +113,13 @@ export default function Accommodations() {
                   <div>
                     <h3 className="text-base font-crimson font-semibold text-gray-800 mb-2">Taxi & Rideshare</h3>
                     <p className="text-gray-700 text-sm">
-                      Transportation to the ceremony and reception will not be provided. We recommend traveling by Taxi, Uber, or Lyft, as they are readily available throughout Manhattan. From the ceremony to the Metropolitan Club, it is 5 minutes by car.
+                      Transportation to the ceremony and reception will not be provided. We recommend traveling by Taxi, Uber, or Lyft, as they are readily available throughout Manhattan. From the ceremony to the reception, it is a 5 minute car ride.
                     </p>
                   </div>
                   <div>
                     <h3 className="text-base font-crimson font-semibold text-gray-800 mb-2">Walking</h3>
                     <p className="text-gray-700 text-sm">
-                      If you rather walk from the ceremony to the reception, the church is a half mile (10-15 minutes) from the Metropolitan Club. 
+                      If you rather some fresh air from the ceremony to the reception, the church is a 13 minute walk (0.6 miles) from the Metropolitan Club. 
                     </p>
                   </div>
                 </div>
