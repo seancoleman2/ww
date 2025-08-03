@@ -119,7 +119,7 @@ export default function Accommodations() {
                   <div>
                     <h3 className="text-base font-crimson font-semibold text-gray-800 mb-2">Walking</h3>
                     <p className="text-gray-700 text-sm">
-                      If you rather some fresh air from the ceremony to the reception, the church is a 13 minute walk (0.6 miles) from the Metropolitan Club. 
+                      If you rather some fresh air from the ceremony to the reception, the Metropolitan Club is a 13 minute walk (0.6 miles) from the church. 
                     </p>
                   </div>
                 </div>

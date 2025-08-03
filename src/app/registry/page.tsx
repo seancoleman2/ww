@@ -23,20 +23,6 @@ export default function Registry() {
             <div className="space-y-6">
               <div className="bg-white rounded-lg shadow-lg border border-gold/20 overflow-hidden hover:shadow-xl transition-shadow">
                 <div className="text-center p-6">
-                  <h2 className="text-3xl font-exmouth text-gold mb-6">Over the Moon</h2>
-                  <a 
-                    href="https://overthemoon.com/apps/registry/mendicino-coleman-1a4a" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="inline-block bg-gold text-white px-6 py-2 text-sm rounded-md hover:bg-gold/90 transition-colors"
-                  >
-                    View Registry
-                  </a>
-                </div>
-              </div>
-              
-              <div className="bg-white rounded-lg shadow-lg border border-gold/20 overflow-hidden hover:shadow-xl transition-shadow">
-                <div className="text-center p-6">
                   <h2 className="text-3xl font-exmouth text-gold mb-6">Bloomingdale&apos;s</h2>
                   <a 
                     href="https://www.bloomingdales.com/registry/Nicolette-Mendicino-Sean-Coleman/1076594" 

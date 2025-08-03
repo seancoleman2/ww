@@ -30,7 +30,7 @@ export default function Schedule() {
                   <h3 className="text-3xl font-exmouth text-gold">Ceremony</h3>
                 </div>
                 <div className="px-6 pb-6 text-center">
-                  <div className="text-base font-crimson font-semibold text-gray-800 mb-3">4:00 PM</div>
+                  <div className="text-base font-crimson font-semibold text-gray-800 mb-3">3:30 PM</div>
                   <p className="text-gray-700 font-medium text-base mb-4">St. Vincent Ferrer Roman Catholic Church</p>
                   <div className="text-sm text-gray-500 space-y-1">
                     <p>869 Lexington Ave</p>
