@@ -113,13 +113,13 @@ export default function Accommodations() {
                   <div>
                     <h3 className="text-base font-crimson font-semibold text-gray-800 mb-2">Taxi & Rideshare</h3>
                     <p className="text-gray-700 text-sm">
-                      Transportation to the ceremony and reception will not be provided. We recommend traveling by Taxi, Uber, or Lyft, as they are readily available throughout Manhattan. The ride from the Church of St. Ignatius Loyola to the Metropolitan Club takes approximately 10-15 minutes.
+                      Transportation to the ceremony and reception will not be provided. We recommend traveling by Taxi, Uber, or Lyft, as they are readily available throughout Manhattan. From the ceremony to the Metropolitan Club, it is 5 minutes by car.
                     </p>
                   </div>
                   <div>
-                    <h3 className="text-base font-crimson font-semibold text-gray-800 mb-2">Subway</h3>
+                    <h3 className="text-base font-crimson font-semibold text-gray-800 mb-2">Walking</h3>
                     <p className="text-gray-700 text-sm">
-                      If you would rather subway from the ceremony to the reception, take the 4, 5, or 6 train from 86th Street (near the church) to 59th Street. The stop is a short walk to the Metropolitan Club.
+                      If you rather walk from the ceremony to the reception, the church is a half mile (10-15 minutes) from the Metropolitan Club. 
                     </p>
                   </div>
                 </div>
