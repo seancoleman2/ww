@@ -38,7 +38,24 @@ export default function Accommodations() {
                         <p className="text-gray-600 text-sm">1335 Avenue of the Americas, New York, NY 10019</p>
                       </div>
                       <a 
-                        href="https://www.hilton.com/en/hotels/nycnhhh-new-york-hilton-midtown/" 
+                        href="https://www.shorehamhotel.com/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="bg-gold text-white px-4 py-1 rounded text-sm hover:bg-gold/90 transition-colors ml-4 inline-block"
+                      >
+                        Visit Website
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="border-b border-gray-100 pb-3">
+                    <div className="flex justify-between items-center">
+                      <div className="flex-1">
+                        <h3 className="text-base font-crimson font-semibold text-gray-800">Shoreham Hotel</h3>
+                        <p className="text-gray-600 text-sm">33 W 55th St, New York, NY 10019</p>
+                      </div>
+                      <a 
+                        href="https://www.loewshotels.com/regency-hotel" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="bg-gold text-white px-4 py-1 rounded text-sm hover:bg-gold/90 transition-colors ml-4 inline-block"
