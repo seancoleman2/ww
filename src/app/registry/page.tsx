@@ -14,7 +14,7 @@ export default function Registry() {
           
           <div className="max-w-3xl mx-auto text-center text-dark mb-12">
             <p className="mb-4">
-              We are so grateful to have you join us at our wedding, and your presence is more than enough. However, for friends and family who are inclined to give a gift, please see our registry linked below.
+              We are so grateful to have you join us at our wedding, and your presence is more than enough. However, for friends and family who are inclined to give a gift, please see our registries linked below.
             </p>
           </div>
           
@@ -26,6 +26,20 @@ export default function Registry() {
                   <h2 className="text-3xl font-exmouth text-gold mb-6">Bloomingdale&apos;s</h2>
                   <a 
                     href="https://www.bloomingdales.com/registry/Nicolette-Mendicino-Sean-Coleman/1076594" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-block bg-gold text-white px-6 py-2 text-sm rounded-md hover:bg-gold/90 transition-colors"
+                  >
+                    View Registry
+                  </a>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-lg border border-gold/20 overflow-hidden hover:shadow-xl transition-shadow">
+                <div className="text-center p-6">
+                  <h2 className="text-3xl font-exmouth text-gold mb-6">Crate and Barrel</h2>
+                  <a 
+                    href="https://www.crateandbarrel.com/gift-registry/nicolette-mendicino-and-sean-coleman/r7347710" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="inline-block bg-gold text-white px-6 py-2 text-sm rounded-md hover:bg-gold/90 transition-colors"
